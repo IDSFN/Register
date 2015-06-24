@@ -28,20 +28,26 @@
 .pPage label {
 	background: #CBE86B;
 	color: #fff;
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: bolder;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	padding: 1em 2em;
+	padding: 0.5em 1.75em;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	transition: all 3s ease-out 0s;
 }
 
 .pPage label:hover {
 	cursor: pointer;
+	background: #F2E9E1;
+	color: #1C140D;
+	transition: all 0.6s ease-in 0s;
 }
+
+
 
 /**  popUp Register styling*/
 /**  */
