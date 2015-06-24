@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+}
+
+/**  Presentation page styling*/
+/**  */
+.wrapper {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	/*transform-style: preserve-3d;*/
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+}
+
+.pPage {
+	position: relative;
+}
+
+#btn {
+	display: none;
+}
+
+.pPage label {
+	background: #CBE86B;
+	color: #fff;
+	font-size: 2em;
+	font-weight: bolder;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	padding: 1em 2em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.pPage label:hover {
+	cursor: pointer;
+}
+
+/**  popUp Register styling*/
+/**  */
+.popUp {
+	width: 100px;
+	height: 100px;
+	background: red;
+	opacity: 0;
+	text-align: center;
+}
+
+#btn:checked ~ .popUp {
+	opacity: 1;
+}
